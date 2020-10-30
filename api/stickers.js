@@ -34,8 +34,8 @@ router.get('/:id', isValidId, (req, res, next) => {
         if(sticker) {
             res.json(sticker);
         } else {
-            // res.status(404);
-            // next(new Error('Not Found'));
+// res.status(404);
+// next(new Error('Not Found'));
             next();
         }
     });

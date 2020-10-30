@@ -1,3 +1,4 @@
+del_*.*
 # Logs
 logs
 *.log
