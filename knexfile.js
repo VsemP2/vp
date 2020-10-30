@@ -1,4 +1,5 @@
 // Update with your config settings.
+const { pw } = require('./del_test');
 
 module.exports = {
 
@@ -8,8 +9,8 @@ module.exports = {
     client: 'pg',
     connection: {
       database: 'cjs-web-store',
-      user:     'vsemp',
-      password: 'wsaqre13'
+      user:     pw.user,
+      password: pw.pass
     },
   },
 
@@ -19,8 +20,8 @@ module.exports = {
     client: 'postgresql',
     connection: {
       database: 'test-cjs-web-store',
-      user:     'vsemp',
-      password: 'wsaqre13'
+      user:     pw.user,
+      password: pw.pass
     },
   },
 
@@ -28,8 +29,8 @@ module.exports = {
     client: 'postgresql',
     connection: {
       database: 'cjs-web-store',
-      user:     'vsemp',
-      password: 'wsaqre13'
+      user:     pw.user,
+      password: pw.pass
     },
     pool: {
       min: 2,
@@ -49,8 +50,8 @@ module.exports = {
   //   client: 'postgresql',
   //   connection: {
   //     database: 'cjs-web-store',
-  //     user:     'vsemp',
-  //     password: 'wsaqre13'
+  //     user:     pw.user,
+  //     password: pw.pass
   //   },
   //   pool: {
   //     min: 2,
