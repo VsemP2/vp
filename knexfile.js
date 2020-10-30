@@ -5,7 +5,7 @@ module.exports = {
   development: {
     // client: 'pg',
     // connection: 'postgres://localhost/cjs-web-store'
-    client: 'postgresql',
+    client: 'pg',
     connection: {
       database: 'cjs-web-store',
       user:     'vsemp',
